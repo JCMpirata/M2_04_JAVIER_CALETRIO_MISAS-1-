@@ -62,6 +62,13 @@ print(len(comida))
 print("\n")
 
 #Ejercicio 3
+numero1 = float(input("Introduce un numero: "))
+numero2 = float(input("Introduce un numero: "))
+numero3 = float(input("Introduce un numero: "))
+
+notas = [numero1, numero2, numero3]
+sumatorio = sum(notas)
+print(f"La suma de las notas es: ", sumatorio)
 
 
 
