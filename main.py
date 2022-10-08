@@ -33,12 +33,12 @@ print("\n")
 
 #Ejercico 2
 #Diccionario
-baseDeDatos = {"Nombre: Javier", "Apellido: Caletrio",   "Pais: España"}
+baseDeDatos = {"Nombre": "Javier", "Apellido": "Caletrio",   "Pais": "España"}
 print(baseDeDatos)
-#Pimer valor-clave 
-baseDeDatos.get("Nombre")
+#Primer valor - clave
+print(baseDeDatos["Nombre"][0:6])
 #Longitud diccionario
-print(f"El diccionario mide: ", len(baseDeDatos))
+print(f"El diccionario mide: ", len(baseDeDatos.keys()))
 #Añadir elemento
 baseDeDatos["Gate"] = "D16"
 print(baseDeDatos)
