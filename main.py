@@ -19,15 +19,37 @@ print(paises)
 ciudades = ("Madrid", "Stuttgart", "Munich", "Paris", "Florencia", "Viena")
 print(ciudades)
 #Penultimo elemento
-print(f"El penultimo es: ", ciudades[4])
+print(f"El penultimo elemento es: ", ciudades[4])
 #Longitud de l tupla
 print(f"La tupla mide: ", len(ciudades))
 #Busqueda en la tupla
 print(f"Queremos buscar: ", ciudades[1])
 #Añadir elemento
-ciudades.apend("Atenas") #A diferencia de las listas, en las tuplas no podemos añadir elementos, por eso da error.
+#A diferencia de las listas, en las tuplas no podemos añadir elementos, ya que no existe esa posibilidad.
 #Elimanar elemento
-ciudades.pop("Paris")# A diferencia de las listas, en las tuplas no podemos eliminar elentos, por eso da error.
+# A diferencia de las listas, en las tuplas no podemos eliminar elentos, ya que no existe esa posibilidad.
+
+print("\n")
+
+#Ejercico 2
+#Diccionario
+baseDeDatos = {"Nombre: Javier", "Apellido: Caletrio",   "Pais: España"}
+print(baseDeDatos)
+#Pimer valor-clave 
+baseDeDatos.get("Nombre")
+#Longitud diccionario
+print(f"El diccionario mide: ", len(baseDeDatos))
+#Añadir elemento
+baseDeDatos["Gate"] = "D16"
+print(baseDeDatos)
+#Eliminar elemento
+del(baseDeDatos["Apellido"])
+print(baseDeDatos)
+
+#SET
+
+
+
 
 
 
