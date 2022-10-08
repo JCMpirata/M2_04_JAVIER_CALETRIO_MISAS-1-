@@ -66,9 +66,17 @@ numero1 = float(input("Introduce un numero: "))
 numero2 = float(input("Introduce un numero: "))
 numero3 = float(input("Introduce un numero: "))
 
+print("\n")
+
 notas = [numero1, numero2, numero3]
 sumatorio = sum(notas)
 print(f"La suma de las notas es: ", sumatorio)
+
+print("\n")
+
+#Ejercicio 4
+media = sum(notas) / len(notas)
+print(f"La nota media es: ", media)
 
 
 
