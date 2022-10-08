@@ -15,6 +15,8 @@ print(paises)
 paises.remove("Inglaterra")
 print(paises)
 
+print("\n")
+
 #Tupla
 ciudades = ("Madrid", "Stuttgart", "Munich", "Paris", "Florencia", "Viena")
 print(ciudades)
@@ -46,7 +48,25 @@ print(baseDeDatos)
 del(baseDeDatos["Apellido"])
 print(baseDeDatos)
 
+print("\n")
+
 #SET
+comida = {"Tortilla", "Gazpacho", "Lentejas", "Fabada", "Cocido"}
+print(comida)
+#Longitud set
+print(len(comida))
+#Segundo elemento: No se pueden buscar elementos en los set
+#Añadir elemento: No se pueden añadir elementos en los set
+#Eliminar elemeneto: No se pueden eleiminar elementos en los set
+
+print("\n")
+
+#Ejercicio 3
+
+
+
+
+
 
 
 
